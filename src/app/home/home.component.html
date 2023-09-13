@@ -1,0 +1,26 @@
+<div class="container">
+    <h2>Welcome to the Leave Management System</h2>
+    <p>Manage and request leaves with ease.</p>
+    <div class="upcoming-leaves">
+      <h3>National Holidays</h3>
+      <div class="allcard">
+      <div  *ngFor="let holiday of nationalHolidays; let i = index">
+          <div class="card">
+            {{ i+1 }}: {{ holiday.date }} 
+            <div>
+              {{ holiday.name }} - {{ holiday.state }}
+            </div>
+          </div> 
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="announcements">
+        <h4>Announcements</h4>
+        <p><strong>Important:</strong> New leave policy updates. Please review.</p>
+        <!-- Add more announcements -->
+      </div>
+      
+  </div>
+  

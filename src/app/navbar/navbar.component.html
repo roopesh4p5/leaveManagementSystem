@@ -1,0 +1,26 @@
+<nav class="navbar">
+    <div class="left-section">
+      <ul class="nav-list">
+        <li><a routerLink="/home">LEAVE MANAGEMENT SYSTEM</a></li>
+      </ul>
+    </div>
+    <div class="middle-section">
+      <ul class="nav-list"> 
+          <li *ngIf="isAdmin "><a routerLink="/addnewemp">Add New Employee</a></li>
+          <li *ngIf="isAdmin"><a routerLink="/all-leaves">Pending Leaves</a></li>
+          <li *ngIf="isAdmin"><a routerLink="/accepted-leaves">Approved Leaves</a></li>
+          <li *ngIf="isAdmin"><a routerLink="/accepted-leaves">Rejected Leaves</a></li>
+        <li *ngIf="isUser"><a routerLink="/apply-leaves">Apply Leaves</a></li>
+        <li *ngIf="isUser"><a routerLink="/my-leave-records">My Leave Records</a></li>
+        <li *ngIf="isUser"><a routerLink="/rejected-leaves">disabled</a></li>
+              </ul>
+    </div>
+    <div class="right-section">
+      <ul class="nav-list">
+        <li *ngIf="islogin"><a (click)="logout()">Logout</a></li>
+        <li *ngIf="!islogin"><a routerLink="/login">Login</a></li>
+      </ul>
+      
+    </div>
+  </nav>
+  

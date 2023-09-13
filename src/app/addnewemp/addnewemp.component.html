@@ -1,0 +1,44 @@
+<!-- <div class="employee-form">
+    <h2>Add New Employee</h2>
+    <form (submit)="addEmployee()" #employeeForm="ngForm">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" [(ngModel)]="newEmployee.username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" [(ngModel)]="newEmployee.email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}">
+        <div *ngIf="employeeForm.controls.email.invalid && (employeeForm.controls.email.dirty || employeeForm.controls.email.touched)" class="error-message">
+          Please enter a valid email address.
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" [(ngModel)]="newEmployee.password" name="password" required minlength="8">
+        <div *ngIf="employeeForm.controls.password.invalid && (employeeForm.controls.password.dirty || employeeForm.controls.password.touched)" class="error-message">
+          Password must be at least 8 characters long.
+        </div>
+      </div>
+      <button type="submit">Add Employee</button>
+    </form>
+  </div>
+   -->
+   <div class="employee-form">
+    <h2>Add New Employee</h2>
+    <form (submit)="addEmployee()" #employeeForm="ngForm">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" [(ngModel)]="newEmployee.username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" [(ngModel)]="newEmployee.email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" [(ngModel)]="newEmployee.password" name="password" required>
+      </div>
+      <button type="submit">Add Employee</button>
+    </form>
+  </div>
+  

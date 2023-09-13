@@ -1,0 +1,57 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "password123"
+    },
+    {
+      "username": "roopes4p5",
+      "email": "roopesh4p5@gmail.com",
+      "password": "1234qwer",
+      "id": 2
+    },
+    {
+      "username": "farhan12",
+      "email": "farhan12@gmail.com",
+      "password": "1234qwer",
+      "id": 3
+    }
+  ],
+  "nationalholiday": [
+    {
+      "date": "2023/01/01",
+      "name": "New Year's Day",
+      "state": "National"
+    },
+    {
+      "date": "2023/01/26",
+      "name": "Republic Day",
+      "state": "National"
+    },
+    {
+      "date": "2023/04/02",
+      "name": "Good Friday",
+      "state": "National"
+    },
+    {
+      "date": "2023/08/15",
+      "name": "Independence Day",
+      "state": "National"
+    },
+    {
+      "date": "2023/10/02",
+      "name": "Gandhi Jayanti",
+      "state": "National"
+    },
+    {
+      "date": "2023/12/25",
+      "name": "Christmas Day",
+      "state": "National"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

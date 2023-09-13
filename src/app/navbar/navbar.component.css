@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Adjust as needed */
+    color: #fff; /* Adjust as needed */
+    padding: 10px 20px; /* Adjust as needed */
+  }
+  
+  .left-section {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: bolder;
+
+li{
+    text-decoration: none;
+
+}
+  }
+  
+  .middle-section {
+    flex-grow: 2; /* Adjust the value to control the middle section's width */
+  }
+
+  
+  .right-section {
+    flex-grow: 1;
+    text-align: right;
+    cursor: pointer;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    display: inline;
+    margin-right: 20px; /* Adjust as needed for spacing between menu items */
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff; /* Adjust link color as needed */
+    transition: all .5s;
+    
+  }
+  a:hover{
+    color: aqua;
+  }
+  /* Add additional styles as needed */
+  
