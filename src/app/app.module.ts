@@ -9,6 +9,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './user/login/login.component';
+import { ApplyleaveComponent } from './user/applyleave/applyleave.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { MyleaverecordsComponent } from './user/myleaverecords/myleaverecords.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { LoginComponent } from './user/login/login.component';
     AddnewempComponent,
     HomeComponent,
     LoginComponent,
+    ApplyleaveComponent,
+    PagenotfoundComponent,
+    MyleaverecordsComponent,
   
   ],
   imports: [

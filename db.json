@@ -10,7 +10,21 @@
       "username": "roopes4p5",
       "email": "roopesh4p5@gmail.com",
       "password": "1234qwer",
-      "id": 2
+      "id": 2,
+      "leave": [
+        {
+          "leaveType": "vacation",
+          "startDate": "2023-09-15",
+          "endDate": "2023-09-22",
+          "reason": "1234q"
+        },
+        {
+          "leaveType": "sick",
+          "startDate": "2023-09-14",
+          "endDate": "2023-09-15",
+          "reason": "i am done"
+        }
+      ]
     },
     {
       "username": "farhan12",

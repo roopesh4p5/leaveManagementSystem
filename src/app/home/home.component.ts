@@ -20,7 +20,7 @@ export class HomeComponent {
     this.holidayService.getNationalHolidays(this.selectedYear)
       .subscribe(data => {
         this.nationalHolidays = data;
-        console.log(data);
+        // console.log(data);
       });
   }
 }
